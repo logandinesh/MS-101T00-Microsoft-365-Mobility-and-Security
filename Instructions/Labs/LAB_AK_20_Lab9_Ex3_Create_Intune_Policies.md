@@ -71,18 +71,17 @@ In this lab, you will be creating a WIP policy that protects an entire collectio
 2. On the **All services** window, enter **Intune** in the **Search** box, and then in the details pane on the right, select **Intune**.
 3. In the **Microsoft Intune – Overview** window, in the middle pane under the **Manage** group, select **Client apps**.
 4. In the **Client apps** window, in the middle pane under the **Manage** group, select **App protection policies.**
-5. In the **Client apps – App protection policies** window, in the right-hand pane, select **+Create Policy.**
+5. In the **Client apps – App protection policies** window, in the right-hand pane, select **+Create Policy** and select **Windows 10**.
 6. In the **Create policy** window, enter the following information:
 
     - Name: **Win10Policy**
     - Description: **Windows Information Protection Policy for Windows 10 computers**
-    - Platform: **Windows 10**
     - Enrollment state. **With Enrollment**
 
-7. Select the **Protected apps** group.
-8. In the **Protected apps** window, select **Add apps.** You're first going to add all the recommended apps.
+7. Select **Next**.
+8. In the **Targeted apps** window, below **Protected apps** select **+Add.** You're first going to add all the recommended apps.
 9. In the **Add apps** window, select the check box to the left of the **NAME** column heading to select all app, select **OK.**
-10. In the **Protected apps** window, select **Add apps.** In the remaining steps, you&#39;re going to add a Store app, which in this case is **Microsoft Power BI**.
+10. In the **Targeted apps** window, below **Protected apps** select **Add apps.** In the remaining steps, you&#39;re going to add a Store app, which in this case is **Microsoft Power BI**.
 11. In the **Add apps** window, the drop-down field at the top of the page displays **Recommended apps**. Select this field, and in the drop-down menu, select **Store apps**.
 12. In the **Add apps** window, enter the following information:
 
@@ -92,8 +91,11 @@ In this lab, you will be creating a WIP policy that protects an entire collectio
     - Action: **Allow**
 
 13. Select **OK.**
-14. On the **Protected apps** window, select **OK.**
-15. On the **Create policy** window, select **Create.**
+14. On the **Targeted apps** window, select **Next.**
+15. On the **Required settings** window, select **Next.**
+16. On the **Advanced settings** window, select **Next.**
+17. On the **Assignments** window, select **Next.**
+17. On the **Review + create** window, select **Create.**
 
 You have just created a new App Protection Policy (APP), also called a Windows Information Protection Policy (WIP).
 
